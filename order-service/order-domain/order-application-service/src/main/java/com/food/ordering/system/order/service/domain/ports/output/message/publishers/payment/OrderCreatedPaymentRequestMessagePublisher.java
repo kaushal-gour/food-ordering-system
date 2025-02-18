@@ -1,0 +1,8 @@
+package com.food.ordering.system.order.service.domain.ports.output.message.publishers.payment;
+
+import com.food.ordering.system.domain.event.publisher.DomianEventPublisher;
+import com.food.ordering.system.order.service.domain.event.OrderCreatedEvent;
+
+public interface OrderCreatedPaymentRequestMessagePublisher extends DomianEventPublisher<OrderCreatedEvent>{
+
+}
